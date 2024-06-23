@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">CV_Applicatie</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">CV applicatie</string>
 
     <!-- project names -->
     <string name="project_1_name">Weerstation(P1.1)</string>
@@ -79,5 +77,7 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="personalDescription">"ik ben David van der Veer, een technisch Informaticus (1e jaars) en studeer op avans in Breda.\nik heb in mijn tijd op de opleiding deel genomen aan meerdere projecten die ik zal tonen met foto en omschrijving in deze app.\nverder spendeer ik graag mijn vrije tijd aan mijn eigen persoonlijke projecten. ik heb mijn huidige project nog niet afgerond, vandaar dat deze ook niet terug te vinden zal zijn in deze app. "</string>
+    <string name="buttonText">Projecten lijst</string>
 
 </resources>

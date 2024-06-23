@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/informationTab"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -20,12 +20,13 @@
 
         <ImageView
             android:id="@+id/profilePicture"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:srcCompat="@drawable/_00007850031"
+            tools:srcCompat="@drawable/_00007850031" />
 
         <TextView
             android:id="@+id/owner_name"
@@ -56,16 +57,28 @@
             android:text="@string/phoneNumber"
             app:layout_constraintStart_toEndOf="@+id/profilePicture"
             app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:src="@drawable/baseline_arrow_back_24" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.cv_applicatie.Introduction_Page"
+        android:name="com.example.cv_applicatie.Project_list_page"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/informationTab"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout="@layout/fragment_project_list_page" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

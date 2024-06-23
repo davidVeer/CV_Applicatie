@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center|top"
-    tools:context=".project_list_page"
+    tools:context=".Project_list_page"
     tools:layout_gravity="center">
 
     <ScrollView
@@ -19,178 +19,224 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/project1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:id="@+id/project_1_layout"
                 android:focusable="true"
                 android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:id="@+id/weatherStationsProject"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/project_1_photo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:src="@tools:sample/avatars" />
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/_00001960001"
+                        tools:src="@drawable/_00001960001" />
 
                     <TextView
                         android:id="@+id/project_1_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="top|end"
-                        android:text="@string/project_1_name" />
+                        android:text="@string/project_1_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/project_1_Description"
-                        android:layout_width="280dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:layout_gravity="center|end"
-                        android:text="@string/project_1_Description" />
-                </FrameLayout>
+                        android:text="@string/project_1_Description"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/project_1_photo"
+                        app:layout_constraintTop_toBottomOf="@+id/project_1_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/project2"
+                android:id="@+id/project_2_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="true"
                 android:clickable="true"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:id="@+id/agvProject"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/project_2_photo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:src="@tools:sample/avatars" />
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/_00001960003"
+                        tools:src="@drawable/_00001960003" />
 
                     <TextView
                         android:id="@+id/project_2_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="end|top"
-                        android:text="@string/project_2_name" />
+                        android:text="@string/project_2_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/project_2_Description"
-                        android:layout_width="280dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:layout_gravity="center|end"
-                        android:text="@string/project_2_Description" />
-                </FrameLayout>
+                        android:text="@string/project_2_Description"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/project_2_photo"
+                        app:layout_constraintTop_toBottomOf="@+id/project_2_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/project3"
+                android:id="@+id/project_3_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="true"
                 android:clickable="true"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:id="@+id/trainPlannerProject"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/project_3_photo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:src="@tools:sample/avatars" />
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/_00001960006"
+                        tools:src="@drawable/_00001960006" />
 
                     <TextView
                         android:id="@+id/project_3_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="end|top"
-                        android:text="@string/project_3_name" />
+                        android:text="@string/project_3_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/project_3_Description"
-                        android:layout_width="280dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:layout_gravity="center|end"
-                        android:text="@string/project_3_Description" />
-                </FrameLayout>
+                        android:text="@string/project_3_Description"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/project_3_photo"
+                        app:layout_constraintTop_toBottomOf="@+id/project_3_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/project4"
+                android:id="@+id/project_4_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="true"
                 android:clickable="true"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:id="@+id/magicArcadeProject"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+
                     <ImageView
                         android:id="@+id/project_4_photo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:src="@tools:sample/avatars" />
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/_00001960007"
+                        tools:src="@drawable/_00001960007" />
 
                     <TextView
                         android:id="@+id/project_4_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="end|top"
-                        android:text="@string/project_4_name" />
+                        android:text="@string/project_4_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/project_4_Description"
-                        android:layout_width="280dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:layout_gravity="center|end"
-                        android:text="@string/project_4_description" />
-                </FrameLayout>
+                        android:text="@string/project_4_description"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/project_4_photo"
+                        app:layout_constraintTop_toBottomOf="@+id/project_4_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/project5"
+                android:id="@+id/project_5_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="true"
                 android:clickable="true"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:id="@+id/cvApplicationProject"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/project_5_photo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:src="@tools:sample/avatars" />
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/_00001960008"
+                        tools:src="@drawable/_00001960008" />
 
                     <TextView
                         android:id="@+id/project_5_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="end|top"
-                        android:text="@string/project_5_name" />
+                        android:text="@string/project_5_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/project_5_Description"
-                        android:layout_width="280dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:layout_gravity="center|end"
-                        android:text="@string/project_5_Description" />
-                </FrameLayout>
+                        android:text="@string/project_5_Description"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/project_5_photo"
+                        app:layout_constraintTop_toBottomOf="@+id/project_5_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
