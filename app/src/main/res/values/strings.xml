@@ -10,23 +10,31 @@
 
     <!-- project descriptions -->
     <string name="project_1_Description">
-        het project waarbij er een weerstation app gemaakt moest worden
+        mijn eerste project was het toevoegen van weersdata aan een User Interface die docenten ons
+        hadden gegeven. dit heb ik samen met andere eerste jaars gedaan.
+        dit project was in periode 1 van mijn eerste leerjaar
     </string>
 
     <string name="project_2_Description">
-        het project waarbij er een automatisch gelijd voertuig gemaakt moest worden
+        het project waar ik samen met mede studenten mee betrokken ben geweesd was het maken en van een automatisch
+        geleid voertuig die voer kon brengen naar bepaalde plekken op een kinderboerderij.
+        dit was in periode 2 van mijn eerste leerjaar
     </string>
 
     <string name="project_3_Description">
-        het project waarbij er een planner gemaakt moest worden
+        het project waar ik met een groep aan de slag ben gegaan met het maken en ontwerpen van een applicatie
+        die niet alleen een treinstation planning kan maken maar deze ook kan visualiseren met een
+        simulatie. dit was periode 3 van mijn eerste leerjaar
     </string>
 
     <string name="project_4_description">
-        het project waarbij er een attractie voor de essteling gemaakt moest worden
+        het project waar ik samen met mijn team een controller heb gemaakt en ontworpen die een app kan aansturen voor
+        de essteling. dit was het grootste project van mijn eerste leerjaar en was in de vierde periode.
     </string>
 
     <string name="project_5_Description">
-        het project waarbij een CV app gemaakt moest worden
+        een mini project waar het doel was een app te maken die als een CV zou kunnen functioneren.
+        deze app heb ik gemaakt voor android programmeren in periode 4 van mijn eerste leerjaar.
     </string>
 
     <!-- personal information -->

@@ -12,13 +12,14 @@
 
         <ImageView
             android:id="@+id/project_1_specific_photo"
-            android:layout_width="125dp"
+            android:layout_width="160dp"
             android:layout_height="125dp"
             android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="" />
+            tools:src=""
+            tools:srcCompat="@drawable/weerstation" />
 
         <TextView
             android:id="@+id/project1_specific_name"
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:text="@string/project_1_name"
+            android:textColor="#0c2d33"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/project_1_specific_photo" />
@@ -33,9 +35,11 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="32dp"
             android:text="TextView"
+            android:textColor="#0c2d33"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/project1_specific_name" />

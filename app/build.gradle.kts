@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.cv_applicatie"
-        minSdk = 19
+        minSdk = 17
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
