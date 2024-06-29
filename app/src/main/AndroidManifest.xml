@@ -2,16 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/cv_app_icon"
+        android:icon="@mipmap/cv_app_icon"
         android:label="@string/app_name"
         android:roundIcon="@drawable/cv_app_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.CV_Applicatie"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
         tools:targetApi="31">
+
         <activity
             android:name=".IntroductionPage"
             android:exported="true" >

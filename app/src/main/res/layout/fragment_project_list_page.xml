@@ -10,7 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#ffffffff">
 
         <LinearLayout
             android:id="@+id/projectList"
@@ -70,8 +71,8 @@
                 android:id="@+id/project_2_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="true"
                 android:clickable="true"
+                android:focusable="true"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -117,8 +118,8 @@
                 android:id="@+id/project_3_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="true"
                 android:clickable="true"
+                android:focusable="true"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -164,8 +165,8 @@
                 android:id="@+id/project_4_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="true"
                 android:clickable="true"
+                android:focusable="true"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -212,8 +213,8 @@
                 android:id="@+id/project_5_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="true"
                 android:clickable="true"
+                android:focusable="true"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
