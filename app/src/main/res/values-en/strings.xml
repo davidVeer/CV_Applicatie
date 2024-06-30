@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resume application</string>
+
+    <!-- project names -->
+    <string name="project_1_name">WeatherStation(P1.1)</string>
+    <string name="project_2_name">Autonomously Guided Robot(P1.2)</string>
+    <string name="project_3_name">Trainstation Schedule Planner (P1.3)</string>
+    <string name="project_4_name">Magic Arcade (P1.4)</string>
+    <string name="project_5_name">Resume app (P1.4)</string>
+
+    <!-- project descriptions -->
+    <string name="project_1_Description">
+        My first project was using weather data and a pre-made User Interface to show current relevant weather data.
+    </string>
+
+    <string name="project_2_Description">
+        This project I along with some other students was tasked to develop an autonomously driving robot for a goat farmer.
+    </string>
+
+    <string name="project_3_Description">
+        The project where the goal was to develop a schedule planner for a train station alongside a
+        simulation to show the planning.
+    </string>
+
+    <string name="project_4_description">
+        this project me and my team of developers were tasked with developing an attraction for the
+        fictitious theme park "Essteling".
+    </string>
+
+    <string name="project_5_Description">
+        A smaller sized project where the goal was to develop an app that could function as a resume.
+    </string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="personalDescription">I am David van der Veer, A first years software developer, I study at Avans University in Breda.
+        \nDuring my time as a software developer I have taken part in multiple projects which I wil show (through an image) and talk about in this application.
+        \nI like spending my free time comming up with projects of my own and making them a reality, I haven't yet finished my current personal project which is why its not included in this application.
+    </string>
+
+    <string name="buttonText">Project list</string>
+
+    <string name="detailedExplanation">
+        During the fist period of my first year I worked on creating algorithms to calculate and process weather data.
+        I did this together with a couple fellow first years and the help of our senior developers.
+        \nI personally worked on showing relevant data on the GUI we were handed by our teachers,
+        calculating the median values for all weather data, and converting the raw measurements into readable (european) values.
+    </string>
+
+    <string name="detailedExplanationP2">
+        During the second period of my first year our assignment was to develop an Autonomously Driving Robot.
+        We got the specifications of this project later on in the period through customer conversations,
+        the customer told us he was a goat farmer looking to ease the process of feeding his animals.
+        \nMy personal work on this project involved working on the structure of the code, making sure the code
+        that was written was reliable and proper code, and adding the funtionality for the ultrasonic scanner.
+    </string>
+    <string name="detailedExplanationP3">
+        During the third period of my first year we were tasked with developing a GUI that functioned
+        as a planner for a train station and visualising this schedule through a basic 2D simulation
+        (although our group opted for a top-down perspective).
+        \nThis period I personally worked on the C(reate).R(ead).U(pdate).D(elete) functions for all schedule items,
+        for example: trains, and platforms. I also implemented a visual clock for the simulation (both digital and analogue),
+        and I worked on a slider that either sped up time in the simulation or slowed it down depending on its positions.
+    </string>
+    <string name="detailedExplanationP4">
+        During the fourth period of my first year me and my team of developers were tasked with creating a fun new
+        attraction for the theme park Essteling. this period I assumed the role of team leader and focussed on
+        growing within this role. However I did also work on the project itself.
+        \nMy main jobs during this project was designing. I was designed and drew the controller that we made,
+        I drew the circuit diagram, and I solderd all of the components together.
+    </string>
+    <string name="detailedExplanationP5">
+        The final project I worked on during my first year was a resume application. the goal here was to
+        create an app that could be shown to future potential employers to show my capabilities concerning
+        software development.
+        \nPersonally I was very proud of my accomplishments surrounding this application as I didnt really
+        get the chance to work on android development during the Magic arcade development so I was slightly
+        inexperienced. Nevertheless I personally think that this application turned out really well, even working on
+        any size device and having backwards compatibility up to android 6.0.
+
+    </string>
+</resources>

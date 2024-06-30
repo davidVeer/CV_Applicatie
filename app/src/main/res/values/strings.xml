@@ -35,9 +35,9 @@
     </string>
 
     <!-- personal information -->
-    <string name="owner_name">David van der Veer</string>
-    <string name="emailAdress">dja.vanderveer@student.avans.nl</string>
-    <string name="phoneNumber">062215235</string>
+    <string name="owner_name" translatable="false">David van der Veer</string>
+    <string name="emailAdress" translatable="false">dja.vanderveer@student.avans.nl</string>
+    <string name="phoneNumber" translatable="false">062215235</string>
 
 
     <!-- Strings used for fragments for navigation -->
