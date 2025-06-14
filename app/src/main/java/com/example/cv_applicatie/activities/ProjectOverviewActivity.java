@@ -45,8 +45,14 @@ public class ProjectOverviewActivity extends AppCompatActivity {
     private void defineProjectsFromValues() throws Exception {
         String[] projectNames = getResources().getStringArray(R.array.project_names);
         String[] projectDescriptions = getResources().getStringArray(R.array.short_description_projects);
+        int projectCount;
 
-        int projectCount = checkAndFetchProjectCount();
+        try {
+            projectCount = checkAndFetchProjectCount();
+        } catch (Exception e) {
+            //TODO: generate toast explaning the situation
+            return;
+        }
 
         for (int i = 0; i < projectCount; i++) {
             concreteProjects.add(new ProjectModel(projectNames[i], projectDescriptions[i], projectImages[i]));
