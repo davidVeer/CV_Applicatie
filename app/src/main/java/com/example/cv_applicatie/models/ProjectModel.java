@@ -1,9 +1,9 @@
 package com.example.cv_applicatie.models;
 
 public class ProjectModel {
-    String projectname;
-    String projectDiscription;
-    int image;
+    final String projectname;
+    final String projectDiscription;
+    final int image;
 
     public ProjectModel(String projectname, String projectDiscription, int image) {
         this.projectname = projectname;
