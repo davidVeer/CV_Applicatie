@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+    <color name="brand_lightest_blue">#DAE0F2</color>
+    <color name="brand_middle_light_blue">#738FE6</color>
+    <color name="brand_base_blue">#0B3ED9</color>
+    <color name="brand_middle_dark_blue">#072A91</color>
+    <color name="brand_darkest_blue">#00134D</color>
     <color name="black">#FF000000</color>
+    <color name="dark_gray">#333333</color>
+    <color name="middle_gray">#595959</color>
+    <color name="light_gray">#B3B3B3</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="accent_color_orange">#D9340B</color>
 </resources>
