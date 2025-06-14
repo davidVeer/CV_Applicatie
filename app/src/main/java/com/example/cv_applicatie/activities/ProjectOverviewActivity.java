@@ -1,4 +1,4 @@
-package com.example.cv_applicatie;
+package com.example.cv_applicatie.activities;
 
 import android.os.Bundle;
 
@@ -8,7 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ProjectOverview extends AppCompatActivity {
+import com.example.cv_applicatie.R;
+
+public class ProjectOverviewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

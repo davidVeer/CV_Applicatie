@@ -1,4 +1,4 @@
-package com.example.cv_applicatie;
+package com.example.cv_applicatie.activities;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.cv_applicatie.R;
 
 public class MainActivity extends AppCompatActivity {
 
