@@ -1,23 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">CV_Applicatie</string>
 
-    <!-- personal information -->
-    <string name="owner_name" translatable="false">David van der Veer</string>
-    <string name="emailAdress" translatable="false">E-mail: dja.vanderveer@student.avans.nl</string>
-    <string name="phoneNumber" translatable="false">telefoon: 06-12345678</string>
-    <string name="birthDate" translatable="false">03 September 2005</string>
-    <string name="homeAdress" translatable="false">Verlengde Bredestraat 35, Meteren</string>
-    <string name="linkedInLink" translatable="false">LinkedIn: linkedin.com/in/dja-van-der-veer</string>
-
-
     <string name="personalDescription">
-"My name is David van der Veer, a first-year Technical Computer Science student at Avans University of Applied Sciences in Breda.
+Mijn naam is David van der Veer, een eerstejaars Technisch Informatica student aan de Avans Hogeschool in Breda.
 
-During my time in the program, I have participated in several projects, which I will showcase in this app with photos and descriptions. In my free time, I enjoy working on personal projects. My current personal project is still in progress, which is why it is not included in this app yet.
+Tijdens mijn studie heb ik aan verschillende projecten deelgenomen, die ik in deze app zal presenteren met foto’s en beschrijvingen. In mijn vrije tijd besteed ik graag tijd aan persoonlijke projecten. Mijn huidige persoonlijke project is nog in uitvoering, daarom is deze nog niet in deze app opgenomen.
 
-As a motivated second-year Technical Computer Science student at Avans University of Applied Sciences in Breda, I am currently looking for a part-time job that I can do alongside my studies, preferably about two days a week. In the past, I worked at a metalworking company, where I discovered that while I enjoy working with technology, I also want to make more use of and further develop my social skills.
+Als gemotiveerde tweedejaars Technisch Informatica student aan de Avans Hogeschool in Breda ben ik op zoek naar een bijbaan die ik naast mijn studie kan doen, bij voorkeur ongeveer twee dagen per week. In het verleden heb ik gewerkt bij een metaalbewerkingsbedrijf, waar ik ontdekte dat ik, hoewel ik graag met techniek bezig ben, ook mijn sociale vaardigheden meer wil inzetten en verder wil ontwikkelen.
 
-I enjoy learning and improving new skills, and I consider myself a social and communicative person. I am fluent in both Dutch and English and can make myself understood in German to some extent. I take initiative when I feel it’s appropriate and can quickly get a good overview of what needs to be done. I can think critically when solving problems if expected, but I am also perfectly capable of following instructions and completing tasks efficiently."
+Ik leer graag nieuwe vaardigheden en wil mezelf continu verbeteren. Ik ben een sociaal en communicatief persoon. Ik spreek vloeiend Nederlands en Engels en kan mij in het Duits enigszins verstaanbaar maken. Ik neem initiatief wanneer ik dat passend vind en krijg snel een goed overzicht van wat er moet gebeuren. Ik kan kritisch meedenken bij het oplossen van problemen als dat van mij wordt verwacht, maar ik ben ook zeker in staat om opdrachten te volgen en deze efficiënt uit te voeren.
     </string>
 
     <string name="placeholder_project_name">Lorem ipsum</string>
@@ -41,31 +34,31 @@ I enjoy learning and improving new skills, and I consider myself a social and co
     <!-- project descriptions -->
     <string-array name="short_description_projects">
     <item name="short_description_proj_1_1">
-        This is the first project I did during my studies. It was a simple project where a UI had to be combined with basic calculations related to the weather.
+        dit is het eerste project wat ik op mijn opleiding heb gedaan. het was een simpel project waar een UI logica gekombineerd moest worden met simpele berekeningen die met het weer temaken hadden.
     </item>
         <item name="short_description_proj_1_2">
-        AGV was the first project where we were taught to work with hardware. During this project, the focus was on getting actuators, such as motors, to work together with sensors.
-        </item>
+        AGV was het eerste project waar ons werdt geleerd met hardware te werken. gedurende dit project lag de focus op actuatoren zoals motortjes te laten samenwerken met sensoren.
+    </item>
         <item name="short_description_proj_1_3">
-        In this project, we worked with 2D graphics for the first time. The goal was to create an app where a train station schedule could be planned and then actually simulated in another part of the app.
+        Bij dit project hebben wij voor het eerst zelf met 2D graphics gewerkt. het doel hiervan was een app maken waar een treinstation schema ingeplanned kon worden en uiteindelijk daadwerkelijk werdt gesimuleerd in een ander deel van de app.
     </item>
         <item name="short_description_proj_1_4">
-        The idea behind the project in module 1.4 was to design and develop a system that combined custom-built hardware with an Android app.
+        Het idee bij het project van 1.4 was het zelf bedenken en ontwerpen van een systeem dat zelf gemaakte hardware combineerde met een android app.
     </item>
         <item name="short_description_proj_android_prog">
-        A mini project where the goal was to create an app that could function as a résumé (CV).
+        een mini project waar het doel was een app te maken die als een CV zou kunnen functioneren.
     </item>
         <item name="short_description_proj_2_1">
-        For this project, we had to use an ergometer to read data and set up a network system involving both patients and doctors in order to simulate a hospital application.
+        Voor dit project moesten wij een ergometer gebruiken om data uit te lezen met en een netwerksysteem van zowel patienten als doctoren om zo een ziekenhuis toepassing te simuleren.
     </item>
         <item name="short_description_proj_2_2">
-        Period 2.2 was focused on Mobile Systems. During this time, we used the cross-platform framework MAUI to create an app that provided a tour through the city of Breda.
+            Periode 2.2 was die van Mobile systems. Hier hebben wij met het multi platform framework MAUI een app gemaakt die een toer aangraf door de stad Breda
     </item>
         <item name="short_description_proj_2_3">
-        During this period, we worked with embedded systems for the first time. The goal was to create a smart speaker that could detect and play audio. This was also our first real experience using Scrum.
+        Deze Periode hebben wij voor het eerst echt met embedded systemen gewerkt. Het doel was het maken van een smart speaker die audio kon detecteren en afspelen. dit was overigens ook onze eerste echte ervaring met het gebruik van scrum.
     </item>
         <item name="short_description_proj_2_4">
-        I personally found the Augmented Reality project very interesting. We had to use the webcam to create interaction with the user through an app. For this, we designed a game similar to the once-popular game Temple Run.
+        Augmented reality vond ik persoonlijk een erg boeiend project waar wij de webcam moesten gebruiken om op een app interactie te krijgen met de gebruiker. hiervoor hebben wij een spel bedacht vergelijkbaar aan het, vroeger populaire, spel tempelrun
     </item>
     </string-array>
 
