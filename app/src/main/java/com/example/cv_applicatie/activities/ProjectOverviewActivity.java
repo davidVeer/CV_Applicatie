@@ -1,5 +1,6 @@
 package com.example.cv_applicatie.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -11,12 +12,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.cv_applicatie.BusinessLogic.ProjectRecyclerviewAdapter;
+import com.example.cv_applicatie.Interfaces.RecyclerViewClickInterface;
 import com.example.cv_applicatie.R;
 import com.example.cv_applicatie.Domain.ProjectModel;
 
 import java.util.ArrayList;
 
-public class ProjectOverviewActivity extends AppCompatActivity {
+public class ProjectOverviewActivity extends AppCompatActivity implements RecyclerViewClickInterface {
 
     private ArrayList<ProjectModel> concreteProjects = new ArrayList<>();
     private String placeholder_project_name;
@@ -57,7 +59,7 @@ public class ProjectOverviewActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.ProjectsRecyclerview);
         defineProjectsFromValues();
 
-        ProjectRecyclerviewAdapter recyclerviewAdapter = new ProjectRecyclerviewAdapter(this, concreteProjects);
+        ProjectRecyclerviewAdapter recyclerviewAdapter = new ProjectRecyclerviewAdapter(this, concreteProjects, this);
         recyclerView.setAdapter(recyclerviewAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -95,4 +97,9 @@ public class ProjectOverviewActivity extends AppCompatActivity {
         return projectCount;
     }
 
+    @Override
+    public void onProjectClicked(int arrayPosition) {
+        Intent intent = new Intent(getApplicationContext(), ProjectDetailedActivity.class);
+        startActivity(intent);
+    }
 }

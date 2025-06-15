@@ -12,7 +12,7 @@
         android:id="@+id/ProjectsRecyclerview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/infobarHeight"
+        android:layout_marginTop="@dimen/infobarHeightOverview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio=""
         app:layout_constraintEnd_toEndOf="parent"

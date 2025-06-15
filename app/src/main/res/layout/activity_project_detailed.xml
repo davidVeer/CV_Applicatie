@@ -7,4 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.ProjectDetailedActivity">
 
+    <include layout="@layout/top_informational_bar"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

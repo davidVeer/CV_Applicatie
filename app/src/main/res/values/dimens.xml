@@ -1,3 +1,5 @@
 <resources>
-    <dimen name="infobarHeight">405dp</dimen>
+    <dimen name="infobarHeightOverview">405dp</dimen>
+    <dimen name="infobarHeightStart">220dp</dimen>
+    <dimen name="infobarHeightDetailedView">202dp</dimen>
 </resources>

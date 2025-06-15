@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.cv_applicatie.Domain.ProjectModel;
+import com.example.cv_applicatie.Interfaces.RecyclerViewClickInterface;
 import com.example.cv_applicatie.R;
 
 import java.util.ArrayList;
@@ -19,10 +20,12 @@ public class ProjectRecyclerviewAdapter extends RecyclerView.Adapter<ProjectRecy
 
     private final Context context;
     private final ArrayList<ProjectModel> projectsForRecyclerView;
+    private final RecyclerViewClickInterface recyclerViewClickInterface;
 
-    public ProjectRecyclerviewAdapter(Context context, ArrayList<ProjectModel> projectsForRecyclerView) {
+    public ProjectRecyclerviewAdapter(Context context, ArrayList<ProjectModel> projectsForRecyclerView, RecyclerViewClickInterface recyclerViewClickInterface) {
         this.context = context;
         this.projectsForRecyclerView = projectsForRecyclerView;
+        this.recyclerViewClickInterface = recyclerViewClickInterface;
     }
 
     @NonNull
@@ -31,7 +34,7 @@ public class ProjectRecyclerviewAdapter extends RecyclerView.Adapter<ProjectRecy
         LayoutInflater layoutInflater = LayoutInflater.from(this.context);
         View view = layoutInflater.inflate(R.layout.project_recycler_view_row, parent, false);
 
-        return new ProjectRecyclerviewAdapter.ProjectViewHolder(view);
+        return new ProjectRecyclerviewAdapter.ProjectViewHolder(view, recyclerViewClickInterface);
     }
 
     @Override
@@ -47,16 +50,27 @@ public class ProjectRecyclerviewAdapter extends RecyclerView.Adapter<ProjectRecy
     }
 
     public static class ProjectViewHolder extends RecyclerView.ViewHolder{
-
         ImageView projectImageView;
         TextView projectNameTextView,projectDescriptionTextView;
 
-        public ProjectViewHolder(@NonNull View itemView) {
+        public ProjectViewHolder(@NonNull View itemView, RecyclerViewClickInterface recyclerViewClickInterface) {
             super(itemView);
 
             projectImageView = itemView.findViewById(R.id.project_image_view);
             projectNameTextView = itemView.findViewById(R.id.overview_project_name_textview);
             projectDescriptionTextView = itemView.findViewById(R.id.overview_project_description_textview);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (recyclerViewClickInterface == null) return;
+                    int position = getAdapterPosition();
+
+                    if (position == RecyclerView.NO_POSITION) return;
+
+                    recyclerViewClickInterface.onProjectClicked(position);
+                }
+            });
         }
     }
 }
