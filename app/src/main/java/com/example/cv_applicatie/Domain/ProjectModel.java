@@ -1,4 +1,4 @@
-package com.example.cv_applicatie.models;
+package com.example.cv_applicatie.Domain;
 
 public class ProjectModel {
     final String projectname;

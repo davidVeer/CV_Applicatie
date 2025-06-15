@@ -7,27 +7,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.cv_applicatie.BusinessLogic.ProjectRecyclerviewAdapter;
+import com.example.cv_applicatie.Domain.ProjectDataContainer;
 import com.example.cv_applicatie.R;
-import com.example.cv_applicatie.models.ProjectModel;
+import com.example.cv_applicatie.Domain.ProjectModel;
 
 import java.util.ArrayList;
 
 public class ProjectOverviewActivity extends AppCompatActivity {
 
+    final ProjectDataContainer projectDataContainer = new ProjectDataContainer();
     ArrayList<ProjectModel> concreteProjects = new ArrayList<>();
-    int[] projectImages = {
-      R.drawable.weerstation,
-            R.drawable.automatisch_geleid_voertuig,
-            R.drawable.festival_planner,
-            R.drawable.mobiele_beleving,
-            R.drawable.remote_healthcare,
-            R.drawable.mobile_systems,
-            R.drawable.embedded_system,
-            R.drawable.augmented_reality
-    };
-    String[] projectNames;
-    String[] projectDescriptions;
+    int[] projectImages = projectDataContainer.getConcrete_project_images();
+    String[] projectNames = projectDataContainer.getConcrete_project_names();
+    String[] projectDescriptions = projectDataContainer.getConcrete_project_description_short();
 
 
     @Override
@@ -40,17 +36,30 @@ public class ProjectOverviewActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        RecyclerView recyclerView = findViewById(R.id.ProjectsRecyclerview);
+        defineProjectsFromValues();
+
+        ProjectRecyclerviewAdapter recyclerviewAdapter = new ProjectRecyclerviewAdapter(this, concreteProjects);
+        recyclerView.setAdapter(recyclerviewAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private void defineProjectsFromValues() throws Exception {
+    private void defineProjectsFromValues(){
         String[] projectNames = getResources().getStringArray(R.array.project_names);
         String[] projectDescriptions = getResources().getStringArray(R.array.short_description_projects);
+
         int projectCount;
 
         try {
             projectCount = checkAndFetchProjectCount();
         } catch (Exception e) {
-            //TODO: generate toast explaning the situation
+            //TODO:io generate toast explaining the situatn
+
+            concreteProjects.add(new ProjectModel(
+                    projectDataContainer.getPlaceholder_project_name(),
+                    projectDataContainer.getPlaceholder_project_description_short(),
+                    projectDataContainer.getPlaceholder_project_image()));
+
             return;
         }
 
@@ -67,7 +76,7 @@ public class ProjectOverviewActivity extends AppCompatActivity {
 
         if (lengthProjectNamesArray != lengthProjectDescriptionsArray &&
                 lengthProjectNamesArray != lengthProjectImagesArray){
-            throw new Exception("Arrays aren't the same length. Can't map models correctly");
+            throw new ArrayIndexOutOfBoundsException("Arrays aren't the same length. Can't map (all) models correctly");
         }
         projectCount = lengthProjectNamesArray;
         return projectCount;

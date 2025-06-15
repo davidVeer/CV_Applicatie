@@ -15,27 +15,27 @@ import com.example.cv_applicatie.R;
 
 import java.util.ArrayList;
 
-public class project_RecyclerviewAdapter extends RecyclerView.Adapter<project_RecyclerviewAdapter.ProjectViewHolder> {
+public class ProjectRecyclerviewAdapter extends RecyclerView.Adapter<ProjectRecyclerviewAdapter.ProjectViewHolder> {
 
     private final Context context;
     private final ArrayList<ProjectModel> projectsForRecyclerView;
 
-    public project_RecyclerviewAdapter(Context context, ArrayList<ProjectModel> projectsForRecyclerView) {
+    public ProjectRecyclerviewAdapter(Context context, ArrayList<ProjectModel> projectsForRecyclerView) {
         this.context = context;
         this.projectsForRecyclerView = projectsForRecyclerView;
     }
 
     @NonNull
     @Override
-    public project_RecyclerviewAdapter.ProjectViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ProjectRecyclerviewAdapter.ProjectViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(this.context);
         View view = layoutInflater.inflate(R.layout.project_recycler_view_row, parent, false);
 
-        return new project_RecyclerviewAdapter.ProjectViewHolder(view);
+        return new ProjectRecyclerviewAdapter.ProjectViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull project_RecyclerviewAdapter.ProjectViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ProjectRecyclerviewAdapter.ProjectViewHolder holder, int position) {
         holder.projectNameTextView.setText(projectsForRecyclerView.get(position).getProjectname());
         holder.projectDescriptionTextView.setText(projectsForRecyclerView.get(position).getProjectDiscription());
         holder.projectImageView.setImageResource(projectsForRecyclerView.get(position).getImage());
