@@ -3,8 +3,12 @@
 
     <!-- personal information -->
     <string name="owner_name" translatable="false">David van der Veer</string>
-    <string name="emailAdress" translatable="false">dja.vanderveer@student.avans.nl</string>
-    <string name="phoneNumber" translatable="false">062215235</string>
+    <string name="emailAdress" translatable="false">E-mail: dja.vanderveer@student.avans.nl</string>
+    <string name="phoneNumber" translatable="false">telefoon: 06-12345678</string>
+    <string name="birthDate" translatable="false">03 September 2005</string>
+    <string name="homeAdress" translatable="false">Verlengde Bredestraat 35, Meteren</string>
+    <string name="linkedInLink" translatable="false">LinkedIn: linkedin.com/in/dja-van-der-veer</string>
+
 
     <string name="personalDescription">"ik ben David van der Veer, een technisch Informaticus (1e jaars) en studeer op avans in Breda.\nik heb in mijn tijd op de opleiding deel genomen aan meerdere projecten die ik zal tonen met foto en omschrijving in deze app.\nverder spendeer ik graag mijn vrije tijd aan mijn eigen persoonlijke projecten. ik heb mijn huidige project nog niet afgerond, vandaar dat deze ook niet terug te vinden zal zijn in deze app. "</string>
 
