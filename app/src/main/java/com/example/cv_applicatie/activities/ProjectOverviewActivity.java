@@ -2,6 +2,7 @@ package com.example.cv_applicatie.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -69,7 +70,7 @@ public class ProjectOverviewActivity extends AppCompatActivity implements Recycl
         try {
             projectCount = checkAndFetchProjectCount();
         } catch (Exception e) {
-            //TODO:io generate toast explaining the situation
+            Toast.makeText(this, e.getMessage(),Toast.LENGTH_LONG).show();
 
                 concreteProjects.add(new ProjectModel(
                         this.placeholder_project_name,
