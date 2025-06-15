@@ -24,8 +24,10 @@ public class ProjectOverviewActivity extends AppCompatActivity implements Recycl
     private ArrayList<ProjectModel> concreteProjects = new ArrayList<>();
     private String placeholder_project_name;
     private String placeholder_project_description_short;
+    private String placeholder_project_description_long;
     private String[] concrete_project_names;
     private String[] concrete_project_description_short;
+    private String[] concrete_project_description_long;
 
     private final int placeholder_project_image = R.drawable.placeholder_image;
     private final int[] concrete_project_images = {
@@ -54,8 +56,10 @@ public class ProjectOverviewActivity extends AppCompatActivity implements Recycl
 
         this.placeholder_project_name = getResources().getString(R.string.placeholder_project_name);
         this.placeholder_project_description_short = getResources().getString(R.string.placeholder_description_short);
+        this.placeholder_project_description_short = getResources().getString(R.string.placeholder_description_long);
         this.concrete_project_names = getResources().getStringArray(R.array.project_names);
         this.concrete_project_description_short = getResources().getStringArray(R.array.short_description_projects);
+        this.concrete_project_description_long = getResources().getStringArray(R.array.detailed_description_projects);
 
         RecyclerView recyclerView = findViewById(R.id.ProjectsRecyclerview);
         defineProjectsFromValues();
@@ -75,23 +79,27 @@ public class ProjectOverviewActivity extends AppCompatActivity implements Recycl
                 concreteProjects.add(new ProjectModel(
                         this.placeholder_project_name,
                         this.placeholder_project_description_short,
-                        this.placeholder_project_image));
+                        this.placeholder_project_image,
+                        this.placeholder_project_description_long));
             return;
         }
 
         for (int i = 0; i < projectCount; i++) {
-            concreteProjects.add(new ProjectModel(concrete_project_names[i], concrete_project_description_short[i], concrete_project_images[i]));
+            concreteProjects.add(new ProjectModel(concrete_project_names[i], concrete_project_description_short[i], concrete_project_images[i],concrete_project_description_long[i]));
         }
     }
 
     private int checkAndFetchProjectCount() throws ArrayIndexOutOfBoundsException {
         int lengthProjectNamesArray = concrete_project_names.length;
         int lengthProjectDescriptionsArray = concrete_project_description_short.length;
+        int lengthProjectLongArray = concrete_project_description_long.length;
         int lengthProjectImagesArray = concrete_project_images.length;
         int projectCount;
 
         if (lengthProjectNamesArray != lengthProjectDescriptionsArray ||
-                lengthProjectNamesArray != lengthProjectImagesArray){
+            lengthProjectNamesArray != lengthProjectImagesArray ||
+            lengthProjectNamesArray != lengthProjectLongArray
+        ){
             throw new ArrayIndexOutOfBoundsException("Arrays aren't the same length. Can't map (all) models correctly");
         }
         projectCount = lengthProjectNamesArray;
@@ -101,6 +109,11 @@ public class ProjectOverviewActivity extends AppCompatActivity implements Recycl
     @Override
     public void onProjectClicked(int arrayPosition) {
         Intent intent = new Intent(getApplicationContext(), ProjectDetailedActivity.class);
+        intent.putExtra("Name", concreteProjects.get(arrayPosition).getProjectname());
+        intent.putExtra("description", concreteProjects.get(arrayPosition).getConcrete_project_description_long());
+        intent.putExtra("image", concreteProjects.get(arrayPosition).getImage());
+
+
         startActivity(intent);
     }
 }
