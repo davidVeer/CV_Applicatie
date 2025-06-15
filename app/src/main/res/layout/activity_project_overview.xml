@@ -6,12 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.ProjectOverviewActivity">
+<include layout="@layout/top_informational_bar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ProjectsRecyclerview"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/infobarHeight"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

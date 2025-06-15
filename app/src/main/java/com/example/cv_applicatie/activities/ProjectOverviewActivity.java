@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.cv_applicatie.BusinessLogic.ProjectRecyclerviewAdapter;
-import com.example.cv_applicatie.Domain.ProjectDataContainer;
 import com.example.cv_applicatie.R;
 import com.example.cv_applicatie.Domain.ProjectModel;
 
