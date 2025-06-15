@@ -27,47 +27,47 @@
 
 
     <!-- project descriptions -->
-    <string-array name ="short_description_projects">
+    <string-array name="short_description_projects">
     <item name="short_description_proj_1_1">
         mijn eerste project was het toevoegen van weersdata aan een User Interface die docenten ons
         hadden gegeven. dit heb ik samen met andere eerste jaars gedaan.
     </item>
-    <item name="short_description_proj_1_2">
+        <item name="short_description_proj_1_2">
         het project waar ik samen met mede studenten mee betrokken ben geweesd was het maken en van een automatisch
         geleid voertuig die voer kon brengen naar bepaalde plekken op een kinderboerderij.
     </item>
-    <item name="short_description_proj_1_3">
+        <item name="short_description_proj_1_3">
         het project waar ik met een groep aan de slag ben gegaan met het maken en ontwerpen van een applicatie
         die niet alleen een treinstation planning kan maken maar deze ook kan visualiseren met een
         simulatie.
     </item>
-    <item name="short_description_proj_1_4">
+        <item name="short_description_proj_1_4">
         het project waar ik samen met mijn team een controller heb gemaakt en ontworpen die een app kan aansturen voor
         de essteling.
     </item>
-    <item name="short_description_proj_android_prog">
+        <item name="short_description_proj_android_prog">
         een mini project waar het doel was een app te maken die als een CV zou kunnen functioneren.
     </item>
-    <item name="short_description_proj_2_1">
+        <item name="short_description_proj_2_1">
         Mijn eerste project was het toevoegen van weersdata aan een User Interface die docenten ons
         hadden gegeven. dit heb ik samen met andere eerste jaars gedaan.
     </item>
-    <item name="short_description_proj_2_2">
+        <item name="short_description_proj_2_2">
         het project waar ik samen met mede studenten mee betrokken ben geweesd was het maken en van een automatisch
         geleid voertuig die voer kon brengen naar bepaalde plekken op een kinderboerderij.
     </item>
-    <item name="short_description_proj_2_3">
+        <item name="short_description_proj_2_3">
         het project waar ik met een groep aan de slag ben gegaan met het maken en ontwerpen van een applicatie
         die niet alleen een treinstation planning kan maken maar deze ook kan visualiseren met een
         simulatie.
     </item>
-    <item name="short_description_proj_2_4">
+        <item name="short_description_proj_2_4">
         het project waar ik samen met mijn team een controller heb gemaakt en ontworpen die een app kan aansturen voor
         de essteling.
     </item>
     </string-array>
 
-<string-array name="detailed_description_projects">
+    <string-array name="detailed_description_projects">
     <item name="detailed_description_proj_1_1">
         in periode 1 van mijn eerste leerjaar als TI student ben ik
         bezig geweesd met het maken van een set algoritmes die weersgegevens van een weerstation kunnen verwerken.
@@ -76,7 +76,7 @@
         dat voor elk gegeven meting de mediaan kan vinden van een periode, en met het omzetten van de
         ruwe data (amerikaanse metingen zonder komma) naar leesbare data (europeese waardes met komma op de juiste plek)
     </item>
-    <item name="detailed_description_proj_1_2">
+        <item name="detailed_description_proj_1_2">
         in periode 2 van mijn eerste leerjaar was de opdracht van ons
         project om een automatisch geleid voertuig te maken. de specificaties hebben wij gedurende de
         eerste weken van het project gekregen door de \"klant\". voor ons was dit het maken van een robot
@@ -84,7 +84,7 @@
         veel bezig geweesd met de stuctuur van de code en het robuust maken van de hier-en-daar wat slordige code.
         hierdoor heb ik geleerd hoe de hele robot werkte én heb ik geleerd wat een stuk code betrouwbaar maakt
     </item>
-    <item name="detailed_description_proj_1_3">
+        <item name="detailed_description_proj_1_3">
         Het Project wat ik samen met mijn collega studenten heb gemaakt
         in periode 3 van mijn eerste leerjaar, was een GUI die gebruikt kon worden om een treinschema
         voor een station te plannen én deze kunnen visualiseren met een simulatie.\nik ben dit project
@@ -93,7 +93,7 @@
         gebruiks ervaring,\nén heb ik mij gefocussed op het toevoegen van een slider waarmee
         de tijd binnen de simulatie versneld of versloomd kon worden.
     </item>
-    <item name="detailed_description_proj_1_4">
+        <item name="detailed_description_proj_1_4">
         in periode 4 van het eerste jaar kreeg ik samen met mijn team
         de opdracht een gebruikers ervaring te maken voor het fictionele park \"de Essteling\".\ndeze periode
         ben ik projectleider geweesd en heb ik mij binnen deze rol verder ontwikkeld. dit was mijn voornaamste
@@ -102,7 +102,7 @@
         ik eigenlijk alle ontwerpen gerealiseerd, dit houd in: schakel schema\'s, controller ontwerpen,
         en het vast solderen van alle componenten.
     </item>
-    <item name="detailed_description_proj_android_prog">
+        <item name="detailed_description_proj_android_prog">
         dit is een los project van alle zogehete \"proftaken\" van
         mijn eerste jaar. \nbij deze opdracht was het doel het ontwikkelen van een applicatie die kan
         functioneren als een CV.\nik heb hiervoor gebruik gemaakt van de theorie die mij is aangeleerd
@@ -113,7 +113,7 @@
         of er gebruik wordt gemaakt van een nieuw of oud (tot android 4.1) device, en ongeacht er gebruik
         word gemaakt van een klein of groot device.
     </item>
-    <item name="detailed_description_proj_2_1">
+        <item name="detailed_description_proj_2_1">
         in periode 1 van mijn eerste leerjaar als TI student ben ik
         bezig geweesd met het maken van een set algoritmes die weersgegevens van een weerstation kunnen verwerken.
         dit heb ik samen met een groepje mede eerste jaars gedaan, ik persoonlijk ben met dit project
@@ -121,7 +121,7 @@
         dat voor elk gegeven meting de mediaan kan vinden van een periode, en met het omzetten van de
         ruwe data (amerikaanse metingen zonder komma) naar leesbare data (europeese waardes met komma op de juiste plek)
     </item>
-    <item name="detailed_description_proj_2_2">
+        <item name="detailed_description_proj_2_2">
         in periode 2 van mijn eerste leerjaar was de opdracht van ons
         project om een automatisch geleid voertuig te maken. de specificaties hebben wij gedurende de
         eerste weken van het project gekregen door de \"klant\". voor ons was dit het maken van een robot
@@ -129,7 +129,7 @@
         veel bezig geweesd met de stuctuur van de code en het robuust maken van de hier-en-daar wat slordige code.
         hierdoor heb ik geleerd hoe de hele robot werkte én heb ik geleerd wat een stuk code betrouwbaar maakt
     </item>
-    <item name="detailed_description_proj_2_3">
+        <item name="detailed_description_proj_2_3">
         het Project wat ik samen met mijn collega studenten heb gemaakt
         in periode 3 van mijn eerste leerjaar, was een GUI die gebruikt kon worden om een treinschema
         voor een station te plannen én deze kunnen visualiseren met een simulatie.\nik ben dit project
@@ -138,7 +138,7 @@
         gebruiks ervaring,\nén heb ik mij gefocussed op het toevoegen van een slider waarmee
         de tijd binnen de simulatie versneld of versloomd kon worden.
     </item>
-    <item name="detailed_description_proj_2_4">
+        <item name="detailed_description_proj_2_4">
         in periode 4 van het eerste jaar kreeg ik samen met mijn team
         de opdracht een gebruikers ervaring te maken voor het fictionele park \"de Essteling\".\ndeze periode
         ben ik projectleider geweesd en heb ik mij binnen deze rol verder ontwikkeld. dit was mijn voornaamste

@@ -19,12 +19,25 @@ import java.util.ArrayList;
 
 public class ProjectOverviewActivity extends AppCompatActivity {
 
-    final ProjectDataContainer projectDataContainer = new ProjectDataContainer();
-    ArrayList<ProjectModel> concreteProjects = new ArrayList<>();
-    int[] projectImages = projectDataContainer.getConcrete_project_images();
-    String[] projectNames = projectDataContainer.getConcrete_project_names();
-    String[] projectDescriptions = projectDataContainer.getConcrete_project_description_short();
+    private ArrayList<ProjectModel> concreteProjects = new ArrayList<>();
+    private String placeholder_project_name;
+    private String placeholder_project_description_short;
+    private String[] concrete_project_names;
+    private String[] concrete_project_description_short;
 
+    private final int placeholder_project_image = R.drawable.placeholder_image;
+    private final int[] concrete_project_images = {
+            R.drawable.weerstation,
+            R.drawable.automatisch_geleid_voertuig,
+            R.drawable.festival_planner,
+            R.drawable.mobiele_beleving,
+            placeholder_project_image,
+            R.drawable.remote_healthcare,
+            R.drawable.mobile_systems,
+            R.drawable.embedded_system,
+            R.drawable.augmented_reality
+
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +49,12 @@ public class ProjectOverviewActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        this.placeholder_project_name = getResources().getString(R.string.placeholder_project_name);
+        this.placeholder_project_description_short = getResources().getString(R.string.placeholder_description_short);
+        this.concrete_project_names = getResources().getStringArray(R.array.project_names);
+        this.concrete_project_description_short = getResources().getStringArray(R.array.short_description_projects);
+
         RecyclerView recyclerView = findViewById(R.id.ProjectsRecyclerview);
         defineProjectsFromValues();
 
@@ -43,42 +62,38 @@ public class ProjectOverviewActivity extends AppCompatActivity {
         recyclerView.setAdapter(recyclerviewAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
-
     private void defineProjectsFromValues(){
-        String[] projectNames = getResources().getStringArray(R.array.project_names);
-        String[] projectDescriptions = getResources().getStringArray(R.array.short_description_projects);
-
         int projectCount;
 
         try {
             projectCount = checkAndFetchProjectCount();
         } catch (Exception e) {
-            //TODO:io generate toast explaining the situatn
+            //TODO:io generate toast explaining the situation
 
-            concreteProjects.add(new ProjectModel(
-                    projectDataContainer.getPlaceholder_project_name(),
-                    projectDataContainer.getPlaceholder_project_description_short(),
-                    projectDataContainer.getPlaceholder_project_image()));
-
+                concreteProjects.add(new ProjectModel(
+                        this.placeholder_project_name,
+                        this.placeholder_project_description_short,
+                        this.placeholder_project_image));
             return;
         }
 
         for (int i = 0; i < projectCount; i++) {
-            concreteProjects.add(new ProjectModel(projectNames[i], projectDescriptions[i], projectImages[i]));
+            concreteProjects.add(new ProjectModel(concrete_project_names[i], concrete_project_description_short[i], concrete_project_images[i]));
         }
     }
 
-    private int checkAndFetchProjectCount() throws Exception {
-        int lengthProjectNamesArray = this.projectNames.length;
-        int lengthProjectDescriptionsArray = this.projectDescriptions.length;
-        int lengthProjectImagesArray = this.projectImages.length;
+    private int checkAndFetchProjectCount() throws ArrayIndexOutOfBoundsException {
+        int lengthProjectNamesArray = concrete_project_names.length;
+        int lengthProjectDescriptionsArray = concrete_project_description_short.length;
+        int lengthProjectImagesArray = concrete_project_images.length;
         int projectCount;
 
-        if (lengthProjectNamesArray != lengthProjectDescriptionsArray &&
+        if (lengthProjectNamesArray != lengthProjectDescriptionsArray ||
                 lengthProjectNamesArray != lengthProjectImagesArray){
             throw new ArrayIndexOutOfBoundsException("Arrays aren't the same length. Can't map (all) models correctly");
         }
         projectCount = lengthProjectNamesArray;
         return projectCount;
     }
+
 }
