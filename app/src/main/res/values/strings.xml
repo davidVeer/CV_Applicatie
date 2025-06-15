@@ -10,7 +10,21 @@
     <string name="linkedInLink" translatable="false">LinkedIn: linkedin.com/in/dja-van-der-veer</string>
 
 
-    <string name="personalDescription">"ik ben David van der Veer, een technisch Informaticus (1e jaars) en studeer op avans in Breda.\nik heb in mijn tijd op de opleiding deel genomen aan meerdere projecten die ik zal tonen met foto en omschrijving in deze app.\nverder spendeer ik graag mijn vrije tijd aan mijn eigen persoonlijke projecten. ik heb mijn huidige project nog niet afgerond, vandaar dat deze ook niet terug te vinden zal zijn in deze app. "</string>
+    <string name="personalDescription">"ik ben David van der Veer, een technisch Informaticus (1e jaars) en studeer op avans in Breda.\nik heb in mijn tijd op de opleiding deel genomen aan meerdere projecten die ik zal tonen met foto en omschrijving in deze app.\nverder spendeer ik graag mijn vrije tijd aan mijn eigen persoonlijke projecten. ik heb mijn huidige project nog niet afgerond, vandaar dat deze ook niet terug te vinden zal zijn in deze app.
+        Als gedreven tweede jaars Technisch informatica student aan de Avans
+Hogeschool in Breda. Ik zou graag een bijbaan vinden om naast mijn studie,
+ongeveer 2 dagen in de week, te kunnen doen. In het verleden heb ik in een
+metaalbewerkingsbedrijf gewerk waar ik merkte dat ik, ondanks dat ik graag
+met techniek bezig, graag meer mijn sociale vaardigheden zowel wil benutten
+als uit breiden.
+        Ik ben graag bezig met het leren en verbeteren van nieuwe vaardigheden en
+ben een sociaal, en communicatief vaardig persoon. Ik spreek zowel
+Nederlands als Engels vloeiend en kan mij enigzinds verstaanbaar maken in het
+duits. Ik neem initiatief wanneer dit mij gepast lijkt en heb redelijk vlot een
+goed overzicht van wat er moet gebeuren. Ik kan kritisch mee denken met
+problemen wanneer dit van mij wordt verwacht maar ben ook zeker in staat
+om opdrachten te volgen en goed uit te voeren.
+"</string>
 
     <string name="placeholder_project_name">Lorem ipsum</string>
     <string name="placeholder_description_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend velit sed commodo volutpat. Donec bibendum velit id bibendum fringilla.</string>
