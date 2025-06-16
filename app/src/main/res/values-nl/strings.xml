@@ -1,26 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">CV_Applicatie</string>
 
-    <!-- personal information -->
-    <string name="owner_name" translatable="false">David van der Veer</string>
-    <string name="emailAdress" translatable="false">E-mail: dja.vanderveer@student.avans.nl</string>
-    <string name="phoneNumber" translatable="false">telefoon: 06-12345678</string>
-    <string name="birthDate" translatable="false">03 September 2005</string>
-    <string name="homeAdress" translatable="false">Verlengde Bredestraat 35, Meteren</string>
-    <string name="linkedInLink" translatable="false">LinkedIn: linkedin.com/in/dja-van-der-veer</string>
-
-
     <string name="personalDescription">
-"My name is David van der Veer, a first-year Technical Computer Science student at Avans University of Applied Sciences in Breda.
+Mijn naam is David van der Veer, een eerstejaars Technisch Informatica student aan de Avans Hogeschool in Breda.
 
-During my time in the program, I have participated in several projects, which I will showcase in this app with photos and descriptions. In my free time, I enjoy working on personal projects. My current personal project is still in progress, which is why it is not included in this app yet.
+Tijdens mijn studie heb ik aan verschillende projecten deelgenomen, die ik in deze app zal presenteren met foto’s en beschrijvingen. In mijn vrije tijd besteed ik graag tijd aan persoonlijke projecten. Mijn huidige persoonlijke project is nog in uitvoering, daarom is deze nog niet in deze app opgenomen.
 
-As a motivated second-year Technical Computer Science student at Avans University of Applied Sciences in Breda, I am currently looking for a part-time job that I can do alongside my studies, preferably about two days a week. In the past, I worked at a metalworking company, where I discovered that while I enjoy working with technology, I also want to make more use of and further develop my social skills.
+Als gemotiveerde tweedejaars Technisch Informatica student aan de Avans Hogeschool in Breda ben ik op zoek naar een bijbaan die ik naast mijn studie kan doen, bij voorkeur ongeveer twee dagen per week. In het verleden heb ik gewerkt bij een metaalbewerkingsbedrijf, waar ik ontdekte dat ik, hoewel ik graag met techniek bezig ben, ook mijn sociale vaardigheden meer wil inzetten en verder wil ontwikkelen.
 
-I enjoy learning and improving new skills, and I consider myself a social and communicative person. I am fluent in both Dutch and English and can make myself understood in German to some extent. I take initiative when I feel it’s appropriate and can quickly get a good overview of what needs to be done. I can think critically when solving problems if expected, but I am also perfectly capable of following instructions and completing tasks efficiently."
+Ik leer graag nieuwe vaardigheden en wil mezelf continu verbeteren. Ik ben een sociaal en communicatief persoon. Ik spreek vloeiend Nederlands en Engels en kan mij in het Duits enigszins verstaanbaar maken. Ik neem initiatief wanneer ik dat passend vind en krijg snel een goed overzicht van wat er moet gebeuren. Ik kan kritisch meedenken bij het oplossen van problemen als dat van mij wordt verwacht, maar ik ben ook zeker in staat om opdrachten te volgen en deze efficiënt uit te voeren.
     </string>
 
-    <string name="descriptionText">Description</string>
+    <string name="descriptionText">Beschrijving</string>
 
     <string name="placeholder_project_name">Lorem ipsum</string>
     <string name="placeholder_description_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend velit sed commodo volutpat. Donec bibendum velit id bibendum fringilla.</string>
@@ -43,73 +36,91 @@ I enjoy learning and improving new skills, and I consider myself a social and co
     <!-- project descriptions -->
     <string-array name="short_description_projects">
     <item name="short_description_proj_1_1">
-        This is the first project I did during my studies. It was a simple project where a UI had to be combined with basic calculations related to the weather.
+        dit is het eerste project wat ik op mijn opleiding heb gedaan. het was een simpel project waar een UI logica gekombineerd moest worden met simpele berekeningen die met het weer temaken hadden.
     </item>
         <item name="short_description_proj_1_2">
-        AGV was the first project where we were taught to work with hardware. During this project, the focus was on getting actuators, such as motors, to work together with sensors.
-        </item>
+        AGV was het eerste project waar ons werdt geleerd met hardware te werken. gedurende dit project lag de focus op actuatoren zoals motortjes te laten samenwerken met sensoren.
+    </item>
         <item name="short_description_proj_1_3">
-        In this project, we worked with 2D graphics for the first time. The goal was to create an app where a train station schedule could be planned and then actually simulated in another part of the app.
+        Bij dit project hebben wij voor het eerst zelf met 2D graphics gewerkt. het doel hiervan was een app maken waar een treinstation schema ingeplanned kon worden en uiteindelijk daadwerkelijk werdt gesimuleerd in een ander deel van de app.
     </item>
         <item name="short_description_proj_1_4">
-        The idea behind the project in module 1.4 was to design and develop a system that combined custom-built hardware with an Android app.
+        Het idee bij het project van 1.4 was het zelf bedenken en ontwerpen van een systeem dat zelf gemaakte hardware combineerde met een android app.
     </item>
         <item name="short_description_proj_android_prog">
-        A mini project where the goal was to create an app that could function as a résumé (CV).
+        een mini project waar het doel was een app te maken die als een CV zou kunnen functioneren.
     </item>
         <item name="short_description_proj_2_1">
-        For this project, we had to use an ergometer to read data and set up a network system involving both patients and doctors in order to simulate a hospital application.
+        Voor dit project moesten wij een ergometer gebruiken om data uit te lezen met en een netwerksysteem van zowel patienten als doctoren om zo een ziekenhuis toepassing te simuleren.
     </item>
         <item name="short_description_proj_2_2">
-        Period 2.2 was focused on Mobile Systems. During this time, we used the cross-platform framework MAUI to create an app that provided a tour through the city of Breda.
+            Periode 2.2 was die van Mobile systems. Hier hebben wij met het multi platform framework MAUI een app gemaakt die een toer aangraf door de stad Breda
     </item>
         <item name="short_description_proj_2_3">
-        During this period, we worked with embedded systems for the first time. The goal was to create a smart speaker that could detect and play audio. This was also our first real experience using Scrum.
+        Deze Periode hebben wij voor het eerst echt met embedded systemen gewerkt. Het doel was het maken van een smart speaker die audio kon detecteren en afspelen. dit was overigens ook onze eerste echte ervaring met het gebruik van scrum.
     </item>
         <item name="short_description_proj_2_4">
-        I personally found the Augmented Reality project very interesting. We had to use the webcam to create interaction with the user through an app. For this, we designed a game similar to the once-popular game Temple Run.
+        Augmented reality vond ik persoonlijk een erg boeiend project waar wij de webcam moesten gebruiken om op een app interactie te krijgen met de gebruiker. hiervoor hebben wij een spel bedacht vergelijkbaar aan het, vroeger populaire, spel tempelrun
     </item>
     </string-array>
 
     <string-array name="detailed_description_projects">
     <item name="detailed_description_proj_1_1">
-        In period 1 of my first year as a Technical Informatics student, I worked on creating a set of algorithms that can process weather data from a weather station.
-I did this together with a group of fellow first-year students. Personally, my tasks in this project included controlling the given GUI board, writing an algorithm that finds the median for each data measurement over a period, and converting the raw data (American measurements without decimals) into readable data (European values with decimals in the correct place).
+        in periode 1 van mijn eerste leerjaar als TI student ben ik
+        bezig geweesd met het maken van een set algoritmes die weersgegevens van een weerstation kunnen verwerken.
+        dit heb ik samen met een groepje mede eerste jaars gedaan, ik persoonlijk ben met dit project
+        bezig gegaan met het aansturen van het GUI board dat ons gegeven werd, een algoritme schrijven
+        dat voor elk gegeven meting de mediaan kan vinden van een periode, en met het omzetten van de
+        ruwe data (amerikaanse metingen zonder komma) naar leesbare data (europeese waardes met komma op de juiste plek)
     </item>
         <item name="detailed_description_proj_1_2">
-       In period 2 of my first year, our project assignment was to build an automated guided vehicle. We received the specifications during the first weeks of the project from the "client." For us, this meant creating a robot that could deliver feed to goats at a petting zoo.
-Personally, during this project, I spent a lot of time working on the code structure and making the somewhat messy code more robust.
-Through this, I learned how the entire robot worked and what makes a piece of code reliable.
+        in periode 2 van mijn eerste leerjaar was de opdracht van ons
+        project om een automatisch geleid voertuig te maken. de specificaties hebben wij gedurende de
+        eerste weken van het project gekregen door de \"klant\". voor ons was dit het maken van een robot
+        die voer kon leveren aan geiten op een kinderboerderij.\nik ben persoonlijk gedurende dit project
+        veel bezig geweesd met de stuctuur van de code en het robuust maken van de hier-en-daar wat slordige code.
+        hierdoor heb ik geleerd hoe de hele robot werkte én heb ik geleerd wat een stuk code betrouwbaar maakt
     </item>
         <item name="detailed_description_proj_1_3">
-        The project I worked on together with my fellow students in period 3 of my first year was a GUI that could be used to plan a train schedule for a station and visualize it through a simulation.
-In this project, I mainly worked on the C(reate).R(ead).U(pdate).D(elete) functions of the planner. I also created a visual clock in the simulation to improve the user experience,
-and I focused on adding a slider that allows the simulation time to be sped up or slowed down.
+        Het Project wat ik samen met mijn collega studenten heb gemaakt
+        in periode 3 van mijn eerste leerjaar, was een GUI die gebruikt kon worden om een treinschema
+        voor een station te plannen én deze kunnen visualiseren met een simulatie.\nik ben dit project
+        vooral aan de slag geweesd met de C(reate).R(ead).U(pdate).D(elete). functies van de planner,
+        ook ben ik aan de slag gegaan met het maken van een visuele klok in de simutatie voor een betere
+        gebruiks ervaring,\nén heb ik mij gefocussed op het toevoegen van een slider waarmee
+        de tijd binnen de simulatie versneld of versloomd kon worden.
     </item>
         <item name="detailed_description_proj_1_4">
-        In period 4 of my first year, my team and I were assigned to create a user experience for the fictional park "de Essteling."
-During this period, I acted as project leader and further developed myself in this role, which was my main goal for the period.
-Besides my role, I worked on designing the final product, which we eventually called the Magic Arcade, and I contributed significantly to it.
-Furthermore, I actually realized almost all the designs, including wiring diagrams, controller designs, and soldering all the components together.
+        in periode 4 van het eerste jaar kreeg ik samen met mijn team
+        de opdracht een gebruikers ervaring te maken voor het fictionele park \"de Essteling\".\ndeze periode
+        ben ik projectleider geweesd en heb ik mij binnen deze rol verder ontwikkeld. dit was mijn voornaamste
+        doel deze periode. buiten mijn rol\nben ik aan de slag gegaan met het bedenken van het uiteindelijke product,
+        wat wij uiteindelijk de magic arcade hebben genoemd, en heb hier behoorlijk wat aan bij gedragen.\nverder heb
+        ik eigenlijk alle ontwerpen gerealiseerd, dit houd in: schakel schema\'s, controller ontwerpen,
+        en het vast solderen van alle componenten.
     </item>
         <item name="detailed_description_proj_android_prog">
-       This is a standalone project, separate from all the so-called "professional tasks" of my first year.
-The goal of this assignment was to develop an application that can function as a résumé (CV).
-For this, I applied the theory I learned in user experience design and thoroughly studied how to use Android Studio.
-Personally, I am very proud of my achievement, as I was nervous to start this app at first due to having spent little time on the professional task (the Magic Arcade).
-However, I think this app turned out well. I made sure everything is clearly readable and works regardless of whether it is used on a new or old device (down to Android 10 at least), and whether the device is small or large.
+        dit is een los project van alle zogehete \"proftaken\" van
+        mijn eerste jaar. \nbij deze opdracht was het doel het ontwikkelen van een applicatie die kan
+        functioneren als een CV.\nik heb hiervoor gebruik gemaakt van de theorie die mij is aangeleerd
+        bij user experience design en heb mij grondig verdiept in het gebruiken van android studio.\npersoonlijk
+        ben ik erg trots op mijn prestatie aangezien ik op het begin nerveus was aan deze app te beginnen
+        vanwege het feit dat ik er weinig mee bezig ben geweesd met de proftaak (de magic arcade).\nechter
+        denk ik dat deze app mooi is gelukt, ik heb gezorgd dat alles goed leesbaar is en werkt ongeacht
+        of er gebruik wordt gemaakt van een nieuw of oud (tot android 4.1) device, en ongeacht er gebruik
+        word gemaakt van een klein of groot device.
     </item>
         <item name="detailed_description_proj_2_1">
-       I was out of time for the explanation for project 2.1
+        ik had voor periode 2.1 geen tijd meer
     </item>
         <item name="detailed_description_proj_2_2">
-        I was out of time for the explanation for project 2.2
+       ik had voor periode 2.2 geen tijd meer
     </item>
         <item name="detailed_description_proj_2_3">
-        I was out of time for the explanation for project 2.3
+        ik had voor periode 2.3 geen tijd meer
     </item>
         <item name="detailed_description_proj_2_4">
-        I was out of time for the explanation for project 2.4
+        ik had voor periode 2.4 geen tijd meer
     </item>
     </string-array>
     <!-- Strings used for fragments for navigation -->
