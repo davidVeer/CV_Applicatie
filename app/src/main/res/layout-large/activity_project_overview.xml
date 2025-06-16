@@ -11,8 +11,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ProjectsRecyclerview"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="@dimen/infobarHeightStart"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/TabletinfobarHeightOverview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio=""
         app:layout_constraintEnd_toEndOf="parent"

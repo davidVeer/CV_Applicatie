@@ -73,83 +73,43 @@ I enjoy learning and improving new skills, and I consider myself a social and co
 
     <string-array name="detailed_description_projects">
     <item name="detailed_description_proj_1_1">
-        in periode 1 van mijn eerste leerjaar als TI student ben ik
-        bezig geweesd met het maken van een set algoritmes die weersgegevens van een weerstation kunnen verwerken.
-        dit heb ik samen met een groepje mede eerste jaars gedaan, ik persoonlijk ben met dit project
-        bezig gegaan met het aansturen van het GUI board dat ons gegeven werd, een algoritme schrijven
-        dat voor elk gegeven meting de mediaan kan vinden van een periode, en met het omzetten van de
-        ruwe data (amerikaanse metingen zonder komma) naar leesbare data (europeese waardes met komma op de juiste plek)
+        In period 1 of my first year as a Technical Informatics student, I worked on creating a set of algorithms that can process weather data from a weather station.
+I did this together with a group of fellow first-year students. Personally, my tasks in this project included controlling the given GUI board, writing an algorithm that finds the median for each data measurement over a period, and converting the raw data (American measurements without decimals) into readable data (European values with decimals in the correct place).
     </item>
         <item name="detailed_description_proj_1_2">
-        in periode 2 van mijn eerste leerjaar was de opdracht van ons
-        project om een automatisch geleid voertuig te maken. de specificaties hebben wij gedurende de
-        eerste weken van het project gekregen door de \"klant\". voor ons was dit het maken van een robot
-        die voer kon leveren aan geiten op een kinderboerderij.\nik ben persoonlijk gedurende dit project
-        veel bezig geweesd met de stuctuur van de code en het robuust maken van de hier-en-daar wat slordige code.
-        hierdoor heb ik geleerd hoe de hele robot werkte én heb ik geleerd wat een stuk code betrouwbaar maakt
+       In period 2 of my first year, our project assignment was to build an automated guided vehicle. We received the specifications during the first weeks of the project from the "client." For us, this meant creating a robot that could deliver feed to goats at a petting zoo.
+Personally, during this project, I spent a lot of time working on the code structure and making the somewhat messy code more robust.
+Through this, I learned how the entire robot worked and what makes a piece of code reliable.
     </item>
         <item name="detailed_description_proj_1_3">
-        Het Project wat ik samen met mijn collega studenten heb gemaakt
-        in periode 3 van mijn eerste leerjaar, was een GUI die gebruikt kon worden om een treinschema
-        voor een station te plannen én deze kunnen visualiseren met een simulatie.\nik ben dit project
-        vooral aan de slag geweesd met de C(reate).R(ead).U(pdate).D(elete). functies van de planner,
-        ook ben ik aan de slag gegaan met het maken van een visuele klok in de simutatie voor een betere
-        gebruiks ervaring,\nén heb ik mij gefocussed op het toevoegen van een slider waarmee
-        de tijd binnen de simulatie versneld of versloomd kon worden.
+        The project I worked on together with my fellow students in period 3 of my first year was a GUI that could be used to plan a train schedule for a station and visualize it through a simulation.
+In this project, I mainly worked on the C(reate).R(ead).U(pdate).D(elete) functions of the planner. I also created a visual clock in the simulation to improve the user experience,
+and I focused on adding a slider that allows the simulation time to be sped up or slowed down.
     </item>
         <item name="detailed_description_proj_1_4">
-        in periode 4 van het eerste jaar kreeg ik samen met mijn team
-        de opdracht een gebruikers ervaring te maken voor het fictionele park \"de Essteling\".\ndeze periode
-        ben ik projectleider geweesd en heb ik mij binnen deze rol verder ontwikkeld. dit was mijn voornaamste
-        doel deze periode. buiten mijn rol\nben ik aan de slag gegaan met het bedenken van het uiteindelijke product,
-        wat wij uiteindelijk de magic arcade hebben genoemd, en heb hier behoorlijk wat aan bij gedragen.\nverder heb
-        ik eigenlijk alle ontwerpen gerealiseerd, dit houd in: schakel schema\'s, controller ontwerpen,
-        en het vast solderen van alle componenten.
+        In period 4 of my first year, my team and I were assigned to create a user experience for the fictional park "de Essteling."
+During this period, I acted as project leader and further developed myself in this role, which was my main goal for the period.
+Besides my role, I worked on designing the final product, which we eventually called the Magic Arcade, and I contributed significantly to it.
+Furthermore, I actually realized almost all the designs, including wiring diagrams, controller designs, and soldering all the components together.
     </item>
         <item name="detailed_description_proj_android_prog">
-        dit is een los project van alle zogehete \"proftaken\" van
-        mijn eerste jaar. \nbij deze opdracht was het doel het ontwikkelen van een applicatie die kan
-        functioneren als een CV.\nik heb hiervoor gebruik gemaakt van de theorie die mij is aangeleerd
-        bij user experience design en heb mij grondig verdiept in het gebruiken van android studio.\npersoonlijk
-        ben ik erg trots op mijn prestatie aangezien ik op het begin nerveus was aan deze app te beginnen
-        vanwege het feit dat ik er weinig mee bezig ben geweesd met de proftaak (de magic arcade).\nechter
-        denk ik dat deze app mooi is gelukt, ik heb gezorgd dat alles goed leesbaar is en werkt ongeacht
-        of er gebruik wordt gemaakt van een nieuw of oud (tot android 4.1) device, en ongeacht er gebruik
-        word gemaakt van een klein of groot device.
+       This is a standalone project, separate from all the so-called "professional tasks" of my first year.
+The goal of this assignment was to develop an application that can function as a résumé (CV).
+For this, I applied the theory I learned in user experience design and thoroughly studied how to use Android Studio.
+Personally, I am very proud of my achievement, as I was nervous to start this app at first due to having spent little time on the professional task (the Magic Arcade).
+However, I think this app turned out well. I made sure everything is clearly readable and works regardless of whether it is used on a new or old device (down to Android 10 at least), and whether the device is small or large.
     </item>
         <item name="detailed_description_proj_2_1">
-        in periode 1 van mijn eerste leerjaar als TI student ben ik
-        bezig geweesd met het maken van een set algoritmes die weersgegevens van een weerstation kunnen verwerken.
-        dit heb ik samen met een groepje mede eerste jaars gedaan, ik persoonlijk ben met dit project
-        bezig gegaan met het aansturen van het GUI board dat ons gegeven werd, een algoritme schrijven
-        dat voor elk gegeven meting de mediaan kan vinden van een periode, en met het omzetten van de
-        ruwe data (amerikaanse metingen zonder komma) naar leesbare data (europeese waardes met komma op de juiste plek)
+       I was out of time for the explanation for project 2.1
     </item>
         <item name="detailed_description_proj_2_2">
-        in periode 2 van mijn eerste leerjaar was de opdracht van ons
-        project om een automatisch geleid voertuig te maken. de specificaties hebben wij gedurende de
-        eerste weken van het project gekregen door de \"klant\". voor ons was dit het maken van een robot
-        die voer kon leveren aan geiten op een kinderboerderij.\nik ben persoonlijk gedurende dit project
-        veel bezig geweesd met de stuctuur van de code en het robuust maken van de hier-en-daar wat slordige code.
-        hierdoor heb ik geleerd hoe de hele robot werkte én heb ik geleerd wat een stuk code betrouwbaar maakt
+        I was out of time for the explanation for project 2.2
     </item>
         <item name="detailed_description_proj_2_3">
-        het Project wat ik samen met mijn collega studenten heb gemaakt
-        in periode 3 van mijn eerste leerjaar, was een GUI die gebruikt kon worden om een treinschema
-        voor een station te plannen én deze kunnen visualiseren met een simulatie.\nik ben dit project
-        vooral aan de slag geweesd met de C(reate).R(ead).U(pdate).D(elete). functies van de planner,
-        ook ben ik aan de slag gegaan met het maken van een visuele klok in de simutatie voor een betere
-        gebruiks ervaring,\nén heb ik mij gefocussed op het toevoegen van een slider waarmee
-        de tijd binnen de simulatie versneld of versloomd kon worden.
+        I was out of time for the explanation for project 2.3
     </item>
         <item name="detailed_description_proj_2_4">
-        in periode 4 van het eerste jaar kreeg ik samen met mijn team
-        de opdracht een gebruikers ervaring te maken voor het fictionele park \"de Essteling\".\ndeze periode
-        ben ik projectleider geweesd en heb ik mij binnen deze rol verder ontwikkeld. dit was mijn voornaamste
-        doel deze periode. buiten mijn rol\nben ik aan de slag gegaan met het bedenken van het uiteindelijke product,
-        wat wij uiteindelijk de magic arcade hebben genoemd, en heb hier behoorlijk wat aan bij gedragen.\nverder heb
-        ik eigenlijk alle ontwerpen gerealiseerd, dit houd in: schakel schema\'s, controller ontwerpen,
-        en het vast solderen van alle componenten.
+        I was out of time for the explanation for project 2.4
     </item>
     </string-array>
     <!-- Strings used for fragments for navigation -->

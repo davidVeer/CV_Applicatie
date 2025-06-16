@@ -2,4 +2,8 @@
     <dimen name="infobarHeightOverview">405dp</dimen>
     <dimen name="infobarHeightStart">220dp</dimen>
     <dimen name="infobarHeightDetailedView">202dp</dimen>
+
+    <dimen name="TabletinfobarHeightOverview">810dp</dimen>
+    <dimen name="TabletinfobarHeightStart">440dp</dimen>
+    <dimen name="TabletinfobarHeightDetailedView">404dp</dimen>
 </resources>

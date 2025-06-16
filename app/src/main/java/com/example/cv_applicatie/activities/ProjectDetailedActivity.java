@@ -34,8 +34,6 @@ public class ProjectDetailedActivity extends AppCompatActivity {
         descriptionTextview.setText(description);
         imageview.setImageResource(image);
 
-
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
